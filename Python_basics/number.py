@@ -14,3 +14,10 @@
 # math functions 
 print(round(3.5))
 print(abs(-20))
+
+# complex 
+
+# bin  binary number
+
+print(bin(5))
+print(int('0b101',2))
