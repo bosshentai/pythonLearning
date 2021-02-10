@@ -1,3 +1,3 @@
 #booleans 
-name = 'Hernani'
+name = 'Hernani' # this assigns to a variable
 is_cool = False
