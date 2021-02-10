@@ -24,9 +24,19 @@ newList = basket.extend([100])
 
 # # newList = basket.clear()
 # print(basket)
-basket2 = ['a','b','c','d','e']
+basket2 = ['a','f','b','c','d','e']
 #print(basket2.index('d'))
 #print( 'd' in basket2 )
-
-
 print(basket2.count('d'))
+
+
+# order 
+basket2.sort()
+basket2.reverse()
+print(basket2)
+#print(len(basket2))
+print(basket2[::-1])
+#print(sorted(basket2))
+
+print(list(range(100)))
+
