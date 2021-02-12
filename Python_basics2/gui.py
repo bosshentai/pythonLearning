@@ -11,11 +11,14 @@ picture = [
 
 # if find 0 display ' '
 # if find 1 display .
+def showTree():
+    for row in picture:
+        for pixel in row:
+            if (pixel == 1):
+                print('*',end='')
+            else:
+                print(' ',end='')
+        print('')
 
-for row in picture:
-    for pixel in row:
-        if (pixel == 1):
-            print('*',end='')
-        else:
-            print(' ',end='')
-    print('')
+
+showTree()
