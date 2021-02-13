@@ -1,1 +1,11 @@
-1 - Suponhamos que você está criando um jogo de aventura. A estrutura de dados para modelar o inventário do jogador será um dicionário em que as chaves são strings com o nome de cada item no inventário e o valor é um inteiro com indicação de quantos itens o jogador possui num dado instante. Por exemplo o dicionário contendo {'corda': 1, 'tocha': 6, 'moeda de ouro': 42, 'punhal': 1, 'flecha': 12} significa que o jogador tem 1 corda, 6 tochas, 42 moedas de ouro e assim por diante. Escreva uma função chamada displayInventory () que recebe como parẫmetro um "inventario" representado como dicionário e a exibisse da seguinte forma: Inventário: 12 flecha 42 moeda ouro 1 corda 6 tocha 1 punhal 2 - Escreva uma função que lê as palavras de um arquivo de palavras de texto. txt (ficheiro em anexo) e as armazene como chaves em um dicionário. O valor deve ser a quantidade de vezes que cada palavra ocorre no ficheiro.
+1 - Suponhamos que você está criando um jogo de aventura. 
+A estrutura de dados para modelar o inventário do jogador será um dicionário em que as chaves são strings com o nome de cada item no inventário 
+e o valor é um inteiro com indicação de quantos itens o jogador possui num dado instante. 
+Por exemplo o dicionário contendo 
+{'corda': 1, 'tocha': 6, 'moeda de ouro': 42, 'punhal': 1, 'flecha': 12} 
+significa que o jogador tem 1 corda, 6 tochas, 42 moedas de ouro e assim por diante. 
+Escreva uma função chamada displayInventory () que recebe como parẫmetro um "inventario"
+ representado como dicionário e a exibisse da seguinte forma: 
+ Inventário: 12 flecha 42 moeda ouro 1 corda 6 tocha 1 punhal '
+ 2 - Escreva uma função que lê as palavras de um arquivo de palavras de texto. txt (ficheiro em anexo) 
+ e as armazene como chaves em um dicionário. O valor deve ser a quantidade de vezes que cada palavra ocorre no ficheiro.
