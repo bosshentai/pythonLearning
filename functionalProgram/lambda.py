@@ -1,16 +1,9 @@
 # lambda expressions 
 #lambda param: action(param)
-
+from functools import reduce 
 myList = [1,2,3]
 
-def multiplyBy2(item):
-    return item*2
 
-def onlyOdd(item):
-    return item % 2 != 0
-
-def accumulator(acc,item):
-    print(acc,item)
-    return acc + item 
-
-print(list(map()))
+print(list(map(lambda item: item*2,myList)))
+print(list(filter(lambda item:item % 2 != 0, myList)))
+print(reduce(lambda acc,item: acc + item,myList,0))
