@@ -1,3 +1,0 @@
-import utility
-
-print(utility)
