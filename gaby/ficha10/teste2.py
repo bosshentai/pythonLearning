@@ -13,7 +13,7 @@ def leia(ficheiro):
                 duplicado[pala] = duplicado[pala] + 1
             else :
                 duplicado[pala] = 1 
-    guardar = open("texto.txt","a")
+    guardar = open("texto.txt","w")
     for key in list(duplicado.keys()):
         guardar.write(f'{key} : {duplicado[key]} \n')
         
